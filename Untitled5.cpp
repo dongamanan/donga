@@ -3,13 +3,15 @@ int main()
 {
 	int a,s;
 	
-	for(a=5;a>=1;a--)
+	for(a=1;a<=5;a++)
 	{
-		for(s=5;s>=a;s--)
+		
+		for(s=a;s<=5;s++)
 		{
 			printf("%d",a);
 			
-		}
+		
+		}	
 		printf("\n");
 		
 		

@@ -1,14 +1,20 @@
 #include<stdio.h>
 int main()
 {
-	int a=1,b=2,n,multi=1;
+	int a,s;
 	
-	printf("enter n:");
-	scanf("%d",&n);
-	
-	for(int i=1;i<=n;i++)
+	for(a=1;a<=5;a++)
 	{
-		multi *=i;
+		
+		for(s=a;s>=1;s--)
+		{
+			printf("%d",s);
+			
+		
+		}	
+		printf("\n");
+		
+		
 	}
-	printf("sum of all number=%d",multi);
+	
 }

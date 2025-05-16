@@ -5,11 +5,13 @@ int main()
 	
 	for(a=5;a>=1;a--)
 	{
-		for(s=5;s>=a;s--)
+		
+		for(s=a;s<=5;s++)
 		{
-			printf("%d",a);
+			printf("%d",s);
 			
-		}
+		
+		}	
 		printf("\n");
 		
 		
