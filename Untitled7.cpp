@@ -1,17 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	int i,a,b;
-	
-	printf("enter for multication table number:");
-	scanf("%d",&a);
-	
-	
-	 
-	for(i=1;i<=10;i++)
+	int a,b;
+	char ch='A';
+	for(a=0;a<5;a++)
 	{
-		printf("%d * %d =%d\n",a,i,a*i);
-		
+	  for(b=a;b>=0;b--)
+	  	{
+	  	 printf("%c ",'A'+b);
+		}
+			printf("\n");
 	}
-	
+
 }
